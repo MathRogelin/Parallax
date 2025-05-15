@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+.imagem{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+#imagem_1, #imagem_2, #imagem_3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imagem_1{
+    background-image: url(https://cdn.pixabay.com/photo/2013/01/05/21/02/art-74050_640.jpg);
+}
+#imagem_2{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/03/04/15/starry-sky-1948523_640.jpg);
+}
+#imagem_3{
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/05/19/49/art-558483_640.jpg);
+}
+.texto{
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+.imagem span{
+    background-color: #000;
+    color: #fff;
+}
+.imagem span h1{
+    padding: 10px;
+    margin: 0px;
+}
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
